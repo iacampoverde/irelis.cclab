@@ -57,7 +57,7 @@ ul {
     background-color: paleturquoise;
     position: absolute;
     top: 150px;
-    left: 300px;
+    left: 600px;
     width: 600px;
     height: 400px;
 }
@@ -75,7 +75,7 @@ ul {
     background-color: thistle;
     position: absolute;
     top: 0px;
-    left: 300px;
+    left: 600px;
     width: 600px;
     height: 95px;
 }
@@ -83,7 +83,7 @@ ul {
 .box4 {
     background-color: khaki;
     position: relative;
-    left: 290px;
+    left: 590px;
     top: 605px;
     width: 600px;
 }

@@ -1,0 +1,83 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(37, 37, 48);
+}
+
+canvas {
+  display: block;
+  position: fixed;
+}
+
+#canvasContainer {
+  margin-left: 55%;
+  
+}
+
+.title {
+  font-size: 80px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  text-decoration: underline;
+
+}
+.warning{
+  color: rgb(218, 218, 218);
+  font-size: medium;
+  text-align: left;
+}
+
+.calendar {
+  text-align: left;
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: 'Crete Round', serif;
+  /* margin-right: 700px; */
+  position: absolute;
+  border-color: rgba(247, 247, 244, 0.325);
+  border-width: 3px;
+  border-style: solid;
+  margin: 1px;
+
+}
+
+.year {
+  border-width: 1px;
+  border-color: aliceblue;
+  border-style: solid;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Noticia Text', serif;
+  
+
+}
+.weekdays li {
+  display: inline-block;
+  margin-right: 20px;
+  width: 9%;
+  color: white;
+  text-align: center;
+  font-size: medium;
+}
+.days {
+  /* padding: 1px 0; */
+  background: white;
+  /* margin: 0; */
+}
+
+.days li {
+  display: inline-block;
+  width: 12%;
+  text-align: left;
+  /* margin-bottom: 5px; */
+  font-size:12px;
+  color: black;
+}
+.days li .important {
+  color: rgb(198, 8, 8);
+  font-size: 15px;
+  font-weight: bold;
+}

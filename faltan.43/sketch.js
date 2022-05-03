@@ -43,15 +43,15 @@ function mousePressed() {
       fill(255);
     } if (mouseX > width / 2 && mouseY > height / 2) {
       textSize(32);
-      text('TEST', mouseX, mouseY);
+      text('TEST #2', mouseX, mouseY);
       fill(255);
     } if (mouseY < height / 2 && mouseX > width / 2) {
       textSize(32);
-      text('INFO', mouseX, mouseY);
+      text('INFO #2' , mouseX, mouseY);
       fill(255);
     } if (mouseY > height / 2 && mouseX < width / 2) {
       textSize(32);
-      text('DIF INFO', mouseX, mouseY);
+      text('MORE INFO', mouseX, mouseY);
       fill(255);
     }
   } else if (window.scrollY > 24362 && window.scrollY < 34831) {

@@ -12,7 +12,7 @@ canvas {
 
 #canvasContainer {
   margin-left: 55%;
-  
+
 }
 
 .title {
@@ -24,7 +24,8 @@ canvas {
   text-decoration: underline;
 
 }
-.warning{
+
+.warning {
   color: rgb(218, 218, 218);
   font-size: medium;
   text-align: left;
@@ -51,9 +52,10 @@ canvas {
   text-align: center;
   font-size: 40px;
   font-family: 'Noticia Text', serif;
-  
+
 
 }
+
 .weekdays li {
   display: inline-block;
   margin-right: 20px;
@@ -62,6 +64,7 @@ canvas {
   text-align: center;
   font-size: medium;
 }
+
 .days {
   /* padding: 1px 0; */
   background: white;
@@ -73,9 +76,10 @@ canvas {
   width: 12%;
   text-align: left;
   /* margin-bottom: 5px; */
-  font-size:12px;
+  font-size: 12px;
   color: black;
 }
+
 .days li .important {
   color: rgb(198, 8, 8);
   font-size: 15px;

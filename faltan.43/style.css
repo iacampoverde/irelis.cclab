@@ -2,25 +2,47 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(37, 37, 48);
+  background-color: #000000;
 }
 
 canvas {
-  display: block;
+ display: block;
+ border: #ffffff;
+ border-width: 1px;
+ border-style: solid;
   position: fixed;
+  width: 25%;
 }
 
 #canvasContainer {
-  margin-left: 55%;
-
+  width: 25%;
+  margin-left: 50%;
+  border: #ffffff;
+  border-width: 1px;
+}
+@media only screen and (max-width: 800px){
+  canvas{
+    width: 100%
+  }
+  #canvasContainer{
+    width: 100%;
+  }
+  .textbox {
+    width: 100%;
+  }
+  .info{
+    font-size: 12px;
+  }
+  .date{
+    font-size: 20px;
+  }
 }
 
 .title {
-  font-size: 80px;
-  font-weight: bolder;
+  font-size: 100px;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family:'Imbue', serif;
   text-decoration: underline;
 
 }
@@ -31,57 +53,32 @@ canvas {
   text-align: left;
 }
 
-.calendar {
-  text-align: left;
-  color: whitesmoke;
-  font-size: 50px;
-  font-family: 'Crete Round', serif;
-  /* margin-right: 700px; */
-  position: absolute;
-  border-color: rgba(247, 247, 244, 0.325);
-  border-width: 3px;
-  border-style: solid;
-  margin: 1px;
-
+.textbox {
+  display:inline-block;
+  width: 75%;
+  max-width: 600px;
+  outline: white 1px dashed;
 }
 
-.year {
-  border-width: 1px;
-  border-color: aliceblue;
-  border-style: solid;
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Noticia Text', serif;
-
-
-}
-
-.weekdays li {
-  display: inline-block;
-  margin-right: 20px;
-  width: 9%;
+.date {
   color: white;
-  text-align: center;
-  font-size: medium;
-}
-
-.days {
-  /* padding: 1px 0; */
-  background: white;
-  /* margin: 0; */
-}
-
-.days li {
-  display: inline-block;
-  width: 12%;
-  text-align: left;
-  /* margin-bottom: 5px; */
-  font-size: 12px;
-  color: black;
-}
-
-.days li .important {
-  color: rgb(198, 8, 8);
-  font-size: 15px;
   font-weight: bold;
+  font-family:'Imbue', serif;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.info {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family:'Imbue', serif;
+
+}
+.halfHeight{
+  color: #000000;
+  height: 250px;
+}
+.fullHeight{
+  color: #000000;
+  height: 500px;
 }

@@ -21,25 +21,27 @@ canvas {
   border-width: 1px;
 }
 
-@media only screen and (max-width: 800px) {
-  canvas {
-    width: 100%
-  }
-
+@media only screen and (max-width: 1000px) {
   #canvasContainer {
     width: 100%;
+    margin-left: 0%;
   }
-
   .textbox {
     width: 100%;
   }
-
   .info {
     font-size: 12px;
+    width: 100%;
   }
-
   .date {
     font-size: 20px;
+    width: 100%;
+  }
+  .halfHeight{
+    width: 100%;
+  }
+  .fullHeight{
+    width: 100%;
   }
 }
 
